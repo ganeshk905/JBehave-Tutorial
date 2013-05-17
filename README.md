@@ -9,7 +9,7 @@ This will run the build and (after a minute or so) Firefox will open and test th
 
     mvn clean install 
 
-You should see Firefox (installed on your system) flicker as it tests Etsy.com
+You should see Firefox (installed on your system) flicker as it tests movietickets.com
 
 This will run a single story (one contained in a D0_1088.story file):
 
