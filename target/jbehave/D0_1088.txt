@@ -1,0 +1,22 @@
+Browse MovieTickets.com
+(D0_1088.story)
+Meta:
+@category In order to purchase a ticket with correct redemption option.
+@color blue
+
+Scenario: On refreshing the page the redemption options displayed
+Given a user is purchasing a ticket (FAILED)
+(org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 6c90746ba8607b7dacdd3d86006d0be1)
+When they are on the Redemption Option page (NOT PERFORMED)
+!-- Then Verify if the redemption page is displayed.
+Then the user refreshes the page (NOT PERFORMED)
+And clicked Continue Order (NOT PERFORMED)
+Then they should be returned to the Redemption Option page (NOT PERFORMED)
+
+

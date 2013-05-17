@@ -1,0 +1,35 @@
+<div class="story">
+<h1>Browse MovieTickets.com</h1>
+<div class="path">D0_1155.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@category </div>
+<div class="property">@color black</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Making a purchase with a single promo code</h2>
+<div class="step failed">Given I have purchased multiple tickets <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_38'
+Driver info: driver.version: RemoteWebDriver
+Session ID: af71736d8262ceb90d290a041ba40d73</span></div>
+<div class="step notPerformed">And with use a single promo code <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When I go to my account summary page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then I should see only one transaction listed in my order history <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Making a purchase with multiple promo codes</h2>
+<div class="step failed">Given I have purchased multiple tickets <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_38'
+Driver info: driver.version: RemoteWebDriver
+Session ID: af71736d8262ceb90d290a041ba40d73</span></div>
+<div class="step notPerformed">And with use multiple promo codes <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When I go to my account summary page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then I should see only one transaction listed in my order history <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>

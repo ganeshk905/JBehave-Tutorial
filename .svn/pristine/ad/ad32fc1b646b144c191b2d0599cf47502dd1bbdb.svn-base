@@ -1,0 +1,42 @@
+Browse MovieTickets.com
+(D0_1112.story)
+Meta:
+@author Sai Krishna
+@color red
+@themes UI Usability
+
+Narrative:
+In order to search for the Ticketing Theaters
+As a user
+I want to display the results within a search range .
+Scenario: Retain the search range value when moving between the tabs
+Given A user is on the house list page (FAILED)
+(org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_38'
+Driver info: driver.version: RemoteWebDriver
+Session ID: af71736d8262ceb90d290a041ba40d73)
+When they change the default search range (NOT PERFORMED)
+And click the Ticketing Theaters tab (NOT PERFORMED)
+Then the search range should retain the choosen value (NOT PERFORMED)
+
+Scenario: Search for Ticketing Theaters when changing the search range value
+Meta:
+@ignored false
+@skip 
+
+Given A user is on the house list page (FAILED)
+(org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_38'
+Driver info: driver.version: RemoteWebDriver
+Session ID: af71736d8262ceb90d290a041ba40d73)
+When User Navigates to  the Ticketing Theaters tab (NOT PERFORMED)
+And then change the default search range (NOT PERFORMED)
+Then they should remain on the Ticketing Theaters tab (NOT PERFORMED)
+
+

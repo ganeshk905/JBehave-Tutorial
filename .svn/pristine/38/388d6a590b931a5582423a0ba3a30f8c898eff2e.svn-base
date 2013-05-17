@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>D0_1112</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1>Browse MovieTickets.com</h1>
+<div class="path">D0_1112.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@author Sai Krishna</div>
+<div class="property">@color red</div>
+<div class="property">@themes UI Usability</div>
+</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> search for the Ticketing Theaters</div>
+<div class="element asA"><span class="keyword asA">As a</span> user</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> display the results within a search range .</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Retain the search range value when moving between the tabs</h2>
+<div class="step failed">Given A user is on the house list page <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_38'
+Driver info: driver.version: RemoteWebDriver
+Session ID: af71736d8262ceb90d290a041ba40d73</span></div>
+<div class="step notPerformed">When they change the default search range <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And click the Ticketing Theaters tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then the search range should retain the choosen value <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Search for Ticketing Theaters when changing the search range value</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@ignored false</div>
+<div class="property">@skip </div>
+</div>
+<div class="step failed">Given A user is on the house list page <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_38'
+Driver info: driver.version: RemoteWebDriver
+Session ID: af71736d8262ceb90d290a041ba40d73</span></div>
+<div class="step notPerformed">When User Navigates to  the Ticketing Theaters tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And then change the default search range <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then they should remain on the Ticketing Theaters tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

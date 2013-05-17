@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Mar 07 14:34:00 PST 2013
+default-http\://phresco.photoninfotech.com/repo/content/groups/prod/.lastUpdated=1362695640848
+http\://phresco.photoninfotech.com/repo/content/groups/prod/.error=Could not transfer artifact org.jbehave\:jbehave-spring\:pom\:3.7 from/to Phresco Repository (http\://phresco.photoninfotech.com/repo/content/groups/prod/)\: Error transferring file\: Server returned HTTP response code\: 502 for URL\: http\://phresco.photoninfotech.com/repo/content/groups/prod/org/jbehave/jbehave-spring/3.7/jbehave-spring-3.7.pom

@@ -1,0 +1,20 @@
+<story path="D0_1088.story" title="Browse MovieTickets.com">
+<meta>
+<property keyword="@" name="category" value="In order to purchase a ticket with correct redemption option."/>
+<property keyword="@" name="color" value="blue"/>
+</meta>
+<scenario keyword="Scenario:" title="On refreshing the page the redemption options displayed">
+<step outcome="failed" keyword="FAILED">Given a user is purchasing a ticket<failure>org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_11&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 6c90746ba8607b7dacdd3d86006d0be1</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When they are on the Redemption Option page</step>
+<step outcome="ignorable">!-- Then Verify if the redemption page is displayed.</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user refreshes the page</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And clicked Continue Order</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should be returned to the Redemption Option page</step>
+</scenario>
+</story>

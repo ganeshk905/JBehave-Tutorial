@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Mar 07 14:33:00 PST 2013
+default-http\://phresco.photoninfotech.com/repo/content/groups/prod/.lastUpdated=1362695580129
+http\://phresco.photoninfotech.com/repo/content/groups/prod/.error=Could not transfer artifact org.seleniumhq.selenium\:selenium-parent\:pom\:2.25.0 from/to Phresco Repository (http\://phresco.photoninfotech.com/repo/content/groups/prod/)\: Error transferring file\: Server returned HTTP response code\: 502 for URL\: http\://phresco.photoninfotech.com/repo/content/groups/prod/org/seleniumhq/selenium/selenium-parent/2.25.0/selenium-parent-2.25.0.pom
