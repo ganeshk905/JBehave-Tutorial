@@ -10,7 +10,7 @@
 		<jbehave.web.version>3.5</jbehave.web.version>
 		<jbehave.site.version>3.1.1</jbehave.site.version>
 		<fluent.selenium.version>1.6.3</fluent.selenium.version>
-		<selenium.version>2.25.0</selenium.version>
+		<selenium.version>2.31.0</selenium.version>
 		<ignore.failures>true</ignore.failures>
 		<meta.filter></meta.filter>
 		<threads>1</threads>
@@ -143,7 +143,7 @@
 							<configuration>
 								<skip>false</skip>
 								<includes>
-									<include>**/test/example/SuiteTest.java</include>
+									<include>**/mtc/stories/MTCStories.java</include>
 								</includes>
 
 								<!-- <sources> <source>**/test/example/SuiteTest.java</source> </sources> -->
