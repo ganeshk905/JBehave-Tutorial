@@ -1,7 +1,8 @@
 language: java
 
-notifications:
-  email: false
+node_js:
+  - "0.10"
+  - "0.11"
 
 before_install:
   - "export DISPLAY=:99.0"
