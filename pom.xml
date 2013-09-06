@@ -302,16 +302,7 @@
 							</metaFilters>
 							<executorsClass>org.jbehave.core.embedder.executors.SameThreadExecutors</executorsClass>
 
-							<systemProperties>
-								<property>
-									<name>browser</name>
-									<value>chrome</value>
-								</property>
-								<property>
-									<name>webdriver.chrome.driver</name>
-									<value>${basedir}/src/main/resources/chromedriver.exe</value>
-								</property>
-							</systemProperties>
+							
 						</configuration>
 						<goals>
 							<goal>run-stories-as-embeddables</goal>
