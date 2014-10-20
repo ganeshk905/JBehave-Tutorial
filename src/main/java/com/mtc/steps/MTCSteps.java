@@ -78,7 +78,7 @@ public class MTCSteps {
 		moviedetail.clickShowTime();
 		purchaseticketpage.selectTicket();
 		purchaseticketpage.clickContinue(ObjectRepo.clickContinue);
-		purchaseticketpage.accountSignIn(ObjectRepo.username,ObjectRepo.password,"saikrishna.vijayakumar@photoninfotech.net","hello123");
+		purchaseticketpage.accountSignIn(ObjectRepo.username,ObjectRepo.password,"testing@gmail.com","hello123");
 		purchaseticketpage.paymentMode();
 		
 	}
@@ -123,7 +123,7 @@ public class MTCSteps {
 	public void singelPromoCode(){
 		purchaseticketpage.addpromocode();
 		purchaseticketpage.clickContinue(ObjectRepo.clickContinuePromoCode);
-		purchaseticketpage.accountSignIn(ObjectRepo.username,ObjectRepo.password,"saikrishna.vijayakumar@photoninfotech.net","hello123");
+		purchaseticketpage.accountSignIn(ObjectRepo.username,ObjectRepo.password,"testing@gmail.com","hello123");
 		purchaseticketpage.paymentMode();
 	    purchaseticketpage.clickContinue(ObjectRepo.clickContinuePurchaseTicket);
 	    purchaseticketpage.clickContinue(ObjectRepo.clickPurchaseButton);
